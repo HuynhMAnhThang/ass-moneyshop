@@ -1,8 +1,9 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { HomeComponent } from './fontend/home/home.component';
 
 const routes: Routes = [
- {path:'home',component:HomeCompComponent},
+ {path:'home',component:HomeComponent},
  {path:'',redirectTo:'home',pathMatch:'full'},
 ];
 
